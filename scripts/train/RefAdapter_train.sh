@@ -92,7 +92,7 @@ CUDA_VISIBLE_DEVICES=$visible_devices accelerate launch --config_file $config_fi
   --ckpt_path $ckpt_path \
   --max_train_steps 1000000 \
   --lora_alpha 32 \
-  --rank 16 \
+  --rank 64 \
   --lora_weight 1.0 \
   --checkpoints_total_limit 100 \
   --use_different_first_frame \

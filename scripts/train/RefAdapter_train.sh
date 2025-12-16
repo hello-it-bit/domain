@@ -84,8 +84,8 @@ CUDA_VISIBLE_DEVICES=$visible_devices accelerate launch --config_file $config_fi
   --max_grad_norm 1.0 \
   --allow_tf32 \
   --report_to tensorboard \
-  --meta_file_path /home/dell/YX/FLUX-task/FlexiAct/Open-VFX/crop.csv \
-  --val_meta_file_path /home/dell/YX/FLUX-task/FlexiAct/Open-VFX/crop.csv \
+  --meta_file_path /home/dell/YX/FLUX-task/FlexiAct/Open-VFX/crop1.csv \
+  --val_meta_file_path /home/dell/YX/FLUX-task/FlexiAct/Open-VFX/crop1.csv \
   --validating_steps 500 \
   --resume_from_checkpoint latest \
   --proportion_empty_prompts $proportion_empty_prompts \

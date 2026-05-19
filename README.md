@@ -33,8 +33,7 @@ Accepted by SIGGRAPH 2026
 ## 🛠️ Method Overview
 
 We introduce **EasyVFX**, a resource-efficient framework that achieves realistic VFX synthesis under stringent constraints. Our core philosophy lies in frequency-domain decomposition: we observe that the complexity of VFX can be significantly mitigated by decoupling high-frequency components, which represent in tricate spatial appearances, from low-frequency components that encapsulate global motion dynamics.This spectral disentanglement transforms a high-dimensional learning problem into manageable sub-tasks, thereby lowering the optimization barrier and reducing data dependency. Building upon this insight,we proposea two-stage training paradigm. First, we design a Frequency-aware Mixture-of-Experts (Freq-MoE) architecture. By utilizing a soft routing mechanism, our model assigns specialize dexperts to distinct spectral bands, enabling them to cultivate robust priors for appearance and motion dynamics. This specialization allows the model to acquire foundational VFX knowledge with fewer GPU resources. Second, we introduce a Test-Time Training strategy powered by a novel Frequency-constraint Loss. This allows the pre-trained model to swiftly adapt to specific, unseen effects through localized optimizations, requiring only about 100 steps on a single GPU.
-![Method](<img width="1027" height="484" alt="bda281b3fe20c962c886cbcf95ac3982" src="https://github.com/user-attachments/assets/ae50d17d-176e-4dcf-b564-87b76cedd7c2" />
-)
+![Method](https://github.com/user-attachments/assets/ae50d17d-176e-4dcf-b564-87b76cedd7c2)
 
 
 ## 🚀 Getting Started

@@ -4,7 +4,7 @@
 
 Accepted by SIGGRAPH 2026
 
- [Yue Ma](https://mayuelala.github.io/)<sup>1*✉</sup>, [Xu Ye]<sup>1*</sup>, [Qinghe Wang]<sup>2</sup>, [Ying Shan](https://www.linkedin.com/in/YingShanProfile/)<sup>2</sup>, [Yansong Tang](https://andytang15.github.io/)<sup>1✉</sup> <br>
+ [Yue Ma](https://mayuelala.github.io/)<sup>1*✉</sup>, [Xu Ye]<sup>1*</sup>, [Qinghe Wang]<sup>2</sup>, <br>
  <sup>1</sup>Hong Kong University of Science and Technology <sup>2</sup>Dalian University of Technology <br>
  <sup>*</sup>Equal Contribution <sup>✉</sup>Corresponding Author
 

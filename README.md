@@ -13,7 +13,11 @@ Accepted by SIGGRAPH 2026
 **Your star means a lot to us in developing this project!** ⭐⭐⭐
 </div>
 
-https://github.com/user-attachments/assets/e6778911-5606-472c-a8b0-f3421c85feb9
+**Place the demo video here.**
+
+
+
+
 
 **📖 Table of Contents**
 
